@@ -1,0 +1,14 @@
+p , h1 {
+    text-align: center;
+}
+
+ol:hover{
+    background-color: dodgerblue;
+}
+ol:active{
+    
+    font-family: monospace;
+}    
+ol , ul {
+    list-style: none;
+}
