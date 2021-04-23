@@ -129,7 +129,7 @@ if(custo < 0 && venda < 0) {
     console.log("ERRO NO SISTEMA")
 } else {
     console.log(lucro = (venda - custo * 1.2)*1000);
-} */
+} 
 
 let salariobruto = 2600;
 let salarioliquidoinss;
@@ -189,3 +189,41 @@ break;
 break;
 
 } 
+
+let taskList = ["Estudar", "Fazer exercicio", "Almoçar", "Dormir"]
+
+
+let taskList1 = taskList.indexOf("Almoçar")
+
+console.log(taskList1) 
+
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+
+for (let frutas = 0; frutas < groceryList.length; frutas +=1 ) {
+     console.log(groceryList[frutas])
+}
+ 
+let arrOfNumbers = [10, 20, 30];
+for (let sum of arrOfNumbers) {
+  sum += 5;
+  console.log(sum);  
+} 
+  
+
+// 11
+// 21
+// 31
+
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+
+for (let contNames of names) {
+    console.log(contNames)
+}
+
+
+let word = 'Hello';
+for (let letter of word) {
+  console.log(letter);
+}
+
+*/
