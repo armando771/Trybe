@@ -179,12 +179,12 @@ case 8:
     } 
 break;
 
-}  */ 
+}  */
 
 // FINALIZANDO O TREINO DE IF/ ELSE.
 
 
-
+/*
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let result = 0;
 let resultado = 0;
@@ -210,6 +210,7 @@ for(let index = 0; index < numbers.length; index +=1) {
 let media = resultado / numbers.length;
 
 console.log(media);
+
 
 if (media > 20) {
     console.log("Valor Maior Que 20!")
@@ -249,6 +250,15 @@ let contador = [];
 for(index = 0; index <= 25 ; index += 1) {
     contador.push(index)
 }
+
 console.log(contador)
 
-// falta a 9;
+
+for (let index = 0; index < contador.length; index += 1) {
+    console.log(contador[index] / 2);
+  }; 
+  */ 
+
+               // FINALIZANDO O ARRAY/LOOP
+
+               
