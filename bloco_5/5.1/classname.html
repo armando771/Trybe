@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.Jogadores{
+    text-align: center;
+    border: 6px solid black;
+    padding: 50px;
+}
+    </style>
+</head>
+<body>
+
+<p class="Jogadores"> Jogador1</p>
+<p class="Jogadores"> jogador2</p>
+<p class="Jogadores"> Jogador3</p>
+<p class="Jogadores"> Jogador4</p>
+
+<script>
+
+let jogadores = document.getElementsByClassName("Jogadores");
+
+for(indexJ = 0; indexJ < jogadores.length;indexJ +=1){
+    jogadores[indexJ].innerText = "Mains e monos Singed";
+    jogadores[indexJ].style.color = "black";
+    jogadores[indexJ].style.background = "grey"       
+}
+
+
+
+</script>    
+</body>
+</html>
