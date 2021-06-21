@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2 id="page-title">Título</h2>
+    <p id="paragraph">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id="second-paragraph">Segundo parágrafo!</p>
+
+    <script>
+      let paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+
+    let changes = document.getElementsByTagName("p");
+    
+    for(i =0;i < changes.length; i+=1){
+        changes[i].className = "classp"
+    }
+    document.getElementsByClassName("classp")[0].innerHTML = "oi"
+    document.getElementsByClassName("classp")[1].innerText= " Tulis"
+    document.getElementsByClassName("classp")[0].style.backgroundColor = "skyblue"
+    document.getElementsByClassName("classp")[1].style.color = "green"
+    
+    document.getElementsByTagName("h4")[0].style.color ="purple"
+
+    </script>
+  </body>
+</html>
